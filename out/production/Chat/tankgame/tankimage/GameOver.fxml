@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tankgame.controller.OverController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="960.0">
+         <image>
+            <Image url="tankgame/tankimage/背景.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flag" fitHeight="275.0" fitWidth="572.0" layoutX="194.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="tankgame/tankimage/游戏失败.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="toIndex" fitHeight="208.0" fitWidth="221.0" layoutX="752.0" layoutY="349.0" onMouseClicked="#mouseClickedToIndex" onMouseEntered="#mouseEnteredToIndex" onMouseExited="#mouseExitedToIndex" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="tankgame/tankimage/返回.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
